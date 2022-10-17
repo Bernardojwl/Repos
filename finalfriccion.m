@@ -43,7 +43,9 @@ while yf > 0 || i == 0
 end
 
 
-plot(x,y)
-
-
-
+plot(x,y,"b")
+xlabel('x(m)')
+ylabel('y(m)')
+title('TIRO PARABÓLICO')
+ylim([0,1.2])
+grid on
